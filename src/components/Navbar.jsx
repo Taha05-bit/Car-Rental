@@ -3,11 +3,12 @@ import Logo from "../images/Logo/logo.png"
 
 
 
+
 function Navbar(){
     return (
         <div className="navbar">
          <div className="navbar__img">
-           <img src={Logo}/>
+           <img src={Logo} alt="logo-img"/>
          </div>
          <ul className="navbar__links">
              <li>

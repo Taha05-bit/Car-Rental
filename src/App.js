@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home'
+import "./dist/css/styles.css"
 
 
 const App = () => {
