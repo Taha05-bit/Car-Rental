@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.container {
+  max-width: 133rem !important;
+  margin: 0 auto !important;
+  padding: 0 2.5rem !important;
+}
+
+.navbar {
+  max-width: 133rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.7rem 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 99999;
+  margin: 0 auto;
+}
+.navbar__img {
+  width: 10rem;
+}
+.navbar__img img {
+  width: 100%;
+  height: 100%;
+}
+.navbar__links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+.navbar__links li {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: #010103;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.navbar__links li:hover {
+  color: #265073;
+}
+@media (max-width: 1000px) {
+  .navbar__links {
+    display: none;
+  }
+}
+.navbar__buttons {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 2.5rem;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+}
+@media (max-width: 1000px) {
+  .navbar__buttons {
+    display: none;
+  }
+}
+.navbar__buttons__sign-in {
+  color: #010103;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+}
+.navbar__buttons__sign-in:hover {
+  color: #265073;
+}
+.navbar__buttons__register {
+  background-color: #265073;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px 0 rgba(3, 16, 113, 0.36);
+  transition: all 0.3s;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  border-color: transparent;
+}
+.navbar__buttons__register:hover {
+  box-shadow: 0 10px 15px 0 rgba(3, 16, 113, 0.5);
+  background-color: #1261a1;
+}
+
+/* <=== Navbar closed *//*# sourceMappingURL=styles.css.map */
