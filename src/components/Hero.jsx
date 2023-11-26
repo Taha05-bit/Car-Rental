@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import bgShape from "../images/hero/78788.jpg";
-import Navbar from "./Navbar";
-import HeroCar from "../images/cars/PngItem_1214642.png"
+import HeroCar from "../images/cars/bmw m5.png"
 
 function Hero(){
+
+
     return (
         <section id="home" className="hero-section">
-        <Navbar/>
             <div className="container">
                 <img className="bg-shape" src={bgShape} />
                    <div className="hero-content">
@@ -30,10 +30,10 @@ function Hero(){
               alt="car-img"
               className="hero-content__car-img"
             />
-                
-            </div>                  
+                </div>                  
             </div>
-            </div>
+        </div>
+
         </section>
     )
 }
