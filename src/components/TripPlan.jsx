@@ -18,7 +18,7 @@ function PlanTrip() {
                 <img src={SelectCar} alt="icon_img" />
                 <h3>Select Car</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
+                  We offer a big range of vehicles for all your driving needs.
                   We have the perfect car to meet your needs
                 </p>
               </div>

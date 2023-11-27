@@ -11,12 +11,11 @@ function Footer() {
                 <span>CAR</span> Rental
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+                Anycar anytime
               </li>
               <li>
                 <a href="tel:123456789">
-                  <IconPhoneCall /> &nbsp; (123) -456-789
+                  <IconPhoneCall /> &nbsp; 123-456-789
                 </a>
               </li>
 
@@ -26,7 +25,7 @@ function Footer() {
                 carrental@gmail.com"
                 >
                   <IconMail />
-                  &nbsp; carrental@gmail.com
+                  &nbsp; RentCar123@gmail.com
                 </a>
               </li>
 
@@ -45,7 +44,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">London</a>
               </li>
               <li>
                 <a href="#home">Careers</a>
@@ -63,15 +62,15 @@ function Footer() {
 
             <ul className="footer-content__2">
               <li>Working Hours</li>
-              <li>Mon - Fri: 9:00AM - 9:00PM</li>
+              <li>Mon - Fri: 8:00AM - 9:00PM</li>
               <li>Sat: 9:00AM - 19:00PM</li>
               <li>Sun: Closed</li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Subscription</li>
+              <li>Register</li>
               <li>
-                <p>Subscribe your Email address for latest news & updates.</p>
+                <p>Register your Email address for latest news & updates.</p>
               </li>
               <li>
                 <input type="email" placeholder="Enter Email Address"></input>
