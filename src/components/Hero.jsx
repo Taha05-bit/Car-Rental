@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import bgShape from "../images/hero/78788.jpg";
 import HeroCar from "../images/cars/bmw m5.png"
 
 function Hero(){
 
+    const bookBtn = () => {
+        document
+          .querySelector("#booking-section")
+          .scrollIntoView({ behavior: "smooth" });
+      };
 
     return (
+        <>
         <section id="home" className="hero-section">
             <div className="container">
                 <img className="bg-shape" src={bgShape} />
@@ -20,8 +27,15 @@ function Hero(){
                   Rent the car of your dreams. Unbeatable prices, unlimited miles,
                   flexible pick-up options and much more.
                 </p>
+            
             <div className="hero-content__text__btns">
-                <button className="hero-content__text__btns__book-ride">Book Ride </button>
+                <Link
+                  onClick={bookBtn}
+                  className="hero-content__text__btns__book-ride"
+                  to="/"
+                >
+                  Book Ride
+                </Link>
                 <button className="hero-content__text__btns__learn-more">Learn More </button>
             </div>          
 
@@ -35,6 +49,7 @@ function Hero(){
         </div>
 
         </section>
+        </>
     )
 }
 export default Hero;
